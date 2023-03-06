@@ -1,0 +1,25 @@
+{
+  "name": "tailwind_css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/css/styles.css",
+    "watch-css": "tailwindcss build --watch -i src/styles.css -o public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshj13/Tailwind_css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshj13/Tailwind_css/issues"
+  },
+  "homepage": "https://github.com/Joshj13/Tailwind_css#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
